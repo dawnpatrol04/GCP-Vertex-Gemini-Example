@@ -1,0 +1,37 @@
+
+langchain 
+langchain-community 
+langchain-experimental 
+sqlalchemy
+google-cloud
+google-cloud-storage
+sqlalchemy
+psycopg2-binary
+langchain
+
+
+
+# Google Cloud client libraries
+google-cloud-storage 
+google-cloud-aiplatform 
+google-auth 
+
+# SQLAlchemy for database interaction
+SQLAlchemy
+
+# Langchain and its community packages
+langchain
+langchain-community
+# Assuming langchain-experimental might be needed for experimental features
+langchain-experimental
+langchain-core
+langchain-google-vertexai
+
+# Database specific drivers (if needed, e.g., for PostgreSQL or MySQL)
+psycopg2-binary  # For PostgreSQL
+PyMySQL # For MySQL
+
+# For environment variable management
+python-dotenv
+
+
