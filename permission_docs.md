@@ -17,10 +17,10 @@ To focus the guide on setting up the service account with the necessary permissi
 Assigning the right permissions is crucial to ensure the service account can perform necessary actions on Vertex AI and other required services. The permissions needed depend on the specific tasks the service account will perform. For this demo, consider the following roles:
 
 1. **Vertex AI Permissions:**
-   - `roles/aiplatform.user`: Allows the service account to access Vertex AI resources.
-   - `roles/aiplatform.editor`: Grants permissions to create, update, and delete Vertex AI resources, if needed for your demo.
+   - `roles/vertex.user`: Allows the service account to access Vertex AI resources.
+   - `roles/vertex.editor`: Grants permissions to create, update, and delete Vertex AI resources, if needed for your demo.
 
-2. **Storage Permissions (if using GCS buckets):**
+2. **Storage Permissions if not enabled:**
    - `roles/storage.objectViewer`: Allows reading data from GCS buckets, necessary if your model or data is stored in GCS.
    - `roles/storage.objectCreator`: Allows writing to GCS buckets, necessary for storing outputs or temporary data.
 

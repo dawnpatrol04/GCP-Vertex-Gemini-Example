@@ -10,11 +10,9 @@ from langchain_google_vertexai import VertexAI
 from dotenv import load_dotenv , find_dotenv
 import os
 
+
 load_dotenv(find_dotenv())
-
-
-# prnt env var called  GOOGLE_APPLICATION_CREDENTIALS
-print("GOOGLE_APPLICATION_CREDENTIALS: ", os.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
+os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
 gemini_model = VertexAI(model_name="gemini-pro")
 
